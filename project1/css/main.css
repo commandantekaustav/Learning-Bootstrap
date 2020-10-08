@@ -1,46 +1,34 @@
 body{
     font-family:'Sansita Swashed', cursive;
-    background: url(../img/abbey3-01.jpg);
+    background: url(../img/3704.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-font-size: 1.2rem;
+    font-size: 1.2rem;
 }
-
+.hero-content a{
+    text-decoration: none;
+    background-color: transparent;
+    color:khaki;
+}
+.hero-content a:hover{
+    background-color: khaki;
+    color: firebrick;
+}
 .navbar-brand{
     /* background-color: transparent; */
     font-size: 2rem;
     font-family:'Sansita Swashed', cursive;
     font-weight: 700;
-
 }
 .nav-link{
     font-size: 1.5rem;
     font-weight: 550;
     font-family: 'Sansita Swashed', cursive;
 }
-
-.attribution {
-    font-family: monospace;
-    font-variant: small-caps;
-    text-decoration: none;
-    text-align: center;
-    background-color: teal;
-    width: 100%;
-}
-.attribution a{
-    text-decoration: none;
-    color: turquoise;
-}
-.author{
-    text-align: center;
-    background-color: teal;
-    color: turquoise;
-}
-.author a{
-    text-decoration: none;
-    color: turquoise;
+.nav-item{
+    color: firebrick;
 }
 
 .hero-content{
@@ -48,21 +36,86 @@ font-size: 1.2rem;
 }
 .hero-content h1{
     font-weight: 900px;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: firebrick;
 }
-
 .social-icons-hero{
     align-items: stretch;
-    color:turquoise;
-    font-size: 2rem;    
+    color:khaki;
+    font-size: 2rem;
+    height: 3rem;
+    border-radius: 50%;    
 }
 .social-icons-hero a{
-    background-color:transparent;
-    border-style: none;
-    border-radius: 25%;
+    background-color:firebrick;
+    border-style: double;
+    border-radius: 25%;    
+    border-color:khaki;
     margin-right: 1rem;
+    height: 3rem;
+    width: 0s;
 }
 
+.about h2{
+font-weight: 700px;
+font-size: 3rem;
+color: firebrick;
+}
+.about{
+    background-image: url(../img/6812.jpg);
+    background-blend-mode: exclusion;
+    backface-visibility: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    font-size: 1.2rem;
+    
+}
+
+.section-heading{
+    font-weight: 700px;
+    font-size: 3.5rem;
+    color: firebrick;
+}
 .section-heading h2{
     align-items: center;
+}
+
+btn-main{
+    background-color: green;
+    color: red;
+    font-size: 1.5rem;
+}
+
+
+.attribution {
+    font-family: monospace;
+    font-variant: small-caps;
+    text-decoration: none;
+    text-align: center;
+    background-color: khaki;
+    width: 100%;
+}
+.attribution a{
+    text-decoration: none;
+    color: firebrick;
+}
+.attribution a:hover{
+    background-color: firebrick;
+    color: khaki;
+    border-radius: 10%;
+}
+.author{
+    text-align: center;
+    background-color: firebrick;
+    color: darkkhaki;
+}
+.author a{
+    text-decoration: none;
+    color: khaki;
+}
+.author a:hover{
+    background-color: khaki;
+    color: firebrick;
+    border-radius: 10%;
 }
